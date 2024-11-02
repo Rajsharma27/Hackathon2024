@@ -6,13 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Light background for contrast */
+    background-color: #f4f4f4; 
 }
 
 header {
-    background: #457ab3; /* Header background color */
+    background: #457ab3;
     color: white;
-    padding: 10px 20px; /* Reduced height by adjusting padding */
 }
 
 .navbar {
@@ -36,7 +35,7 @@ header {
 }
 
 .first ul li span:hover {
-    color: #FFC107; /* Change color on hover */
+    color: #FFC107; 
 }
 
 .search-bar {
@@ -63,19 +62,19 @@ header {
 
 .login-button,
 .signup-button {
-    padding: 8px 15px; /* Adjusted padding for better button height */
-    background: #FFC107; /* Button color */
+    padding: 8px 15px; 
+    background: #FFC107; 
     color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background 0.3s ease;
-    margin-left: 10px; /* Spacing between buttons */
+    margin-left: 10px; 
 }
 
 .login-button:hover,
 .signup-button:hover {
-    background: #FFB300; /* Darker button color on hover */
+    background: #FFB300; 
 }
 
 .main-content {
@@ -91,29 +90,29 @@ header {
 
 .overlay-content {
     position: absolute;
-    top: 30%; /* Centered vertically */
+    top: 30%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally */
+    transform: translate(-50%, -50%); 
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+    background: rgba(0, 0, 0, 0.7); 
     padding: 20px;
     border-radius: 10px;
 }
 
 .overlay-content h1 {
-    font-size: 2.5em; /* Larger font size */
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
 .overlay-content p {
     margin-bottom: 20px;
-    font-size: 1.2em; /* Slightly larger font size */
+    font-size: 1.2em; 
 }
 
 .cta-button {
     padding: 12px 20px;
-    background: #FFC107; /* Bright button color */
+    background: #FFC107; 
     color: black;
     border: none;
     border-radius: 4px;
@@ -123,15 +122,15 @@ header {
 }
 
 .cta-button:hover {
-    background: #FFB300; /* Darker button color on hover */
+    background: #FFB300;
 }
 
 .notification-container {
     position: absolute;
-    top: 70%; /* Below the overlay content */
+    top: 70%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.9); /* White background for notifications */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
     max-width: 400px;
@@ -145,8 +144,8 @@ header {
 .notification {
     margin-bottom: 10px;
     padding: 10px;
-    border-left: 5px solid #007BFF; /* Blue left border */
-    background: #f9f9f9; /* Light background for each notification */
+    border-left: 5px solid #007BFF; 
+    background: #f9f9f9; 
     border-radius: 5px;
 }
 
@@ -158,14 +157,14 @@ header {
 .container2 h1 {
     margin-bottom: 20px;
     font-size: 2em;
-    color: #007BFF; /* Heading color */
+    color: #007BFF; 
 }
 
 .card-container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Space between cards */
+    gap: 20px; 
 }
 
 .card {
@@ -174,12 +173,12 @@ header {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    flex: 0 0 250px; /* Fixed card width */
+    flex: 0 0 250px; 
     transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
+    transform: translateY(-5px); 
 }
 
 .card h2 {
@@ -193,7 +192,7 @@ header {
 
 .card button {
     padding: 10px 15px;
-    background: #007BFF; /* Button color */
+    background: #007BFF;
     color: white;
     border: none;
     border-radius: 4px;
@@ -202,16 +201,15 @@ header {
 }
 
 .card button:hover {
-    background: #0056b3; /* Darker button color on hover */
+    background: #0056b3; 
 }
 
 
 
-/*footer*/
-/* Footer Styles */
+
 footer {
-    background: linear-gradient(135deg, #1c4966, #2a6072); /* Dark gradient background */
-    color: #ffffff; /* White text for contrast */
+    background: linear-gradient(135deg, #1c4966, #2a6072); 
+    color: #ffffff; 
     padding: 40px 20px;
 }
 
@@ -225,12 +223,12 @@ footer {
 
 .footer-links {
     flex: 1;
-    min-width: 200px; /* Ensures a minimum width for smaller screens */
+    min-width: 200px;
     margin: 15px;
 }
 
 .footer-links h3 {
-    border-bottom: 2px solid #ffffff; /* Underline for section titles */
+    border-bottom: 2px solid #ffffff; 
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -242,7 +240,7 @@ footer {
 }
 
 .footer-links ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     padding-left: 0;
 }
 
@@ -251,53 +249,53 @@ footer {
 }
 
 .footer-links a {
-    color: #ffffff; /* White text for links */
-    text-decoration: none; /* No underline */
+    color: #ffffff; 
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffd700; 
 }
 
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Top border for separation */
+    border-top: 1px solid rgba(255, 255, 255, 0.3); 
     padding-top: 10px;
 }
 
-/* Media Query for Responsive Design */
+
 @media (max-width: 768px) {
     .footer-container {
-        flex-direction: column; /* Stack the links on smaller screens */
+        flex-direction: column; 
         align-items: center;
     }
     .footer-links {
-        text-align: center; /* Center align text on smaller screens */
+        text-align: center; 
     }
 }
 .search-bar {
     display: flex;
     align-items: center;
-    width: 300px; /* Set a fixed width for the search bar */
+    width: 300px; 
 }
 
 .search-input {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    flex-grow: 1; /* Allow the search input to take up the remaining space */
-    min-width: 0; /* Prevent overflow of content */
+    flex-grow: 1; 
+    min-width: 0; 
 }
 
 .search-button {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 10px; /* Adjust padding for the search button */
-    margin-left: 5px; /* Add space between the input and button */
+    padding: 10px; 
+    margin-left: 5px; 
 }
 
 .search-button img {
