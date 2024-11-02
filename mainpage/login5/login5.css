@@ -1,4 +1,4 @@
-/* Basic reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f0f2f5, #d6e4ee); /* Light gradient for a clean look */
+    background: linear-gradient(135deg, #f0f2f5, #d6e4ee); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body {
     color: #333;
 }
 
-/* Container Styling */
+
 .container {
     width: 400px;
     padding: 30px;
@@ -25,25 +25,24 @@ body {
     text-align: center;
 }
 
-/* Header Styling */
+
 header h1 {
     font-size: 24px;
-    color: #1c4966; /* Deep blue for headers */
+    color: #1c4966; 
     margin-bottom: 5px;
-    letter-spacing: 1px; /* Adds space between letters */
+    letter-spacing: 1px; 
 }
 
 header p {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
-    word-spacing: 2px; /* Adds space between words */
+    word-spacing: 2px;
 }
 
-/* Form Styling */
 .form-container h2 {
     font-size: 22px;
-    color: #2a6072; /* Darker blue for sub-headers */
+    color: #2a6072; 
     margin-bottom: 15px;
 }
 
@@ -67,7 +66,7 @@ button {
     padding: 12px;
     font-size: 16px;
     color: #fff;
-    background-color: #2a6072; /* Darker blue */
+    background-color: #2a6072; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -96,14 +95,14 @@ button:hover {
     display: none;
 }
 
-/* OTP Section */
+
 #otpSection p {
     font-size: 14px;
     color: #555;
     margin: 15px 0;
 }
 
-/* Media Query for Smaller Screens */
+
 @media (max-width: 420px) {
     .container {
         width: 90%;
