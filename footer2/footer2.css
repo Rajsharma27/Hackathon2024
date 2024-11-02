@@ -65,6 +65,6 @@ footer {
         align-items: center;
     }
     .footer-links {
-        text-align: center; /* Center align text on smaller screens */
+        text-align: center; 
     }
 }
