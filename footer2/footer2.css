@@ -1,0 +1,70 @@
+/* Footer Styles */
+footer {
+    background: linear-gradient(135deg, #1c4966, #2a6072); /* Dark gradient background */
+    color: #ffffff; /* White text for contrast */
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 200px; /* Ensures a minimum width for smaller screens */
+    margin: 15px;
+}
+
+.footer-links h3 {
+    border-bottom: 2px solid #ffffff; /* Underline for section titles */
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-links p,
+.footer-links ul {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-links ul {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Top border for separation */
+    padding-top: 10px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack the links on smaller screens */
+        align-items: center;
+    }
+    .footer-links {
+        text-align: center; /* Center align text on smaller screens */
+    }
+}
