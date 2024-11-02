@@ -6,7 +6,7 @@
     <title>Apply for Certificates</title>
     <link rel="stylesheet" href="c.css">
     <style>
-        /* Basic styling for the cards */
+       
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -40,7 +40,7 @@
             background-color: #45a049;
         }
 
-        /* Modal styling */
+        
         .modal {
             display: none;
             position: fixed;
@@ -134,10 +134,10 @@
             <div class="button"><button onclick="showDocuments('E-Shram Card')">Apply now</button></div>
     </div>
     
-        <!-- Add more cards as needed -->
+       
     </div>
 
-    <!-- Modal for Document Requirements -->
+   
     <div id="documentModal" class="modal">
         <div class="modal-content">
             <h3 id="certificateType"></h3>
@@ -154,18 +154,18 @@
 
     <script>
         function showDocuments(certificateType) {
-            // Set the certificate type in the modal title
+            
             document.getElementById('certificateType').textContent = certificateType;
-            // Show the modal
+           
             document.getElementById('documentModal').style.display = 'block';
         }
 
         function closeModal() {
-            // Hide the modal
+           
             document.getElementById('documentModal').style.display = 'none';
         }
 
-        // Close modal when clicking outside of the modal content
+        
         window.onclick = function(event) {
             const modal = document.getElementById('documentModal');
             if (event.target == modal) {
