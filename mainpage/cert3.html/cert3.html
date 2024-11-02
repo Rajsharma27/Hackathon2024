@@ -6,7 +6,7 @@
     <title>Apply for Certificates</title>
     <link rel="stylesheet" href="cert3.css">
     <style>
-        /* Basic styling for the cards */
+        
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -142,10 +142,10 @@
             <p class="content">Apply for a E-Shram Card.</p>
             <div class="button"><button onclick="showDocuments('E-Shram Card')">Apply now</button></div>
     </div>
-        <!-- Add other certificate cards here -->
+       
     </div>
 
-    <!-- Modal for Document Requirements and Application Form -->
+   
     <div id="documentModal" class="modal">
         <div class="modal-content">
             <h3 id="certificateType"></h3>
@@ -201,12 +201,12 @@
         }
 
         function submitForm(event) {
-            event.preventDefault(); // Prevent the form from submitting normally
+            event.preventDefault();
 
-            // Generate a dummy certificate ID
+        
             const certificateID = "CERT" + Math.floor(Math.random() * 1000000);
             
-            // Hide the form and display the confirmation message
+      
             document.getElementById('applicationForm').style.display = 'none';
             document.getElementById('confirmationMessage').style.display = 'block';
             document.getElementById('certificateID').textContent = certificateID;
